@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRiYWRtaW4iLCJpZCI6IjYwYTFmYjUzMDE4YWU1MmQ1YTE3ZDU4NyIsImlhdCI6MTYyMTIyODQwOX0.KtEdWfjr5YMQEiYwTJvv5yrPeAh3Am3Z5LhuM5YmzuU 
+
+{
+  "title": "Proper entry 4",
+  "author": "Admin",
+  "url": "fsopen.com",
+  "likes": 3
+}
